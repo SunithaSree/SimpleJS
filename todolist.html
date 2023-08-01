@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+  </head>
+  <body
+    style="
+      background-image: url(todolist.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <h1
+      style="
+        text-align: center;
+        color: white;
+        text-shadow: 3px 3px 5px tomato, -3px -3px 5px hsl(273, 100%, 54%);
+      "
+    >
+      TO-DO List
+    </h1>
+    <div style="text-align: center">
+      <label for="additem">Enter Task</label>
+      <br />
+      <input type="text" id="additem" />
+      <br />
+      <br />
+      <button type="button" id="add" onclick="addtask()">Add Task</button>&nbsp;
+      <button type="button" id="remove" onclick="removetask()">
+        Remove Task
+      </button>
+      <h3>Tasks to do</h3>
+      <ol id="todo"></ol>
+    </div>
+    <script src="todolist.js"></script>
+  </body>
+</html>
