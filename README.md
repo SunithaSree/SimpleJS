@@ -5,4 +5,10 @@ Simple calculator (worked on:Aug 2023)
 Background colour change
 ![image](https://github.com/SunithaSree/SimpleJS/assets/129870333/82e81b6e-dbe5-49f3-ac66-10dd4c493bd0)
 
+![image](https://github.com/SunithaSree/SimpleJS/assets/129870333/b5bf1689-a8e2-4388-80fe-abbc8bccd223)
+
+To Do list
+
+
+
 
